@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tabUI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>tabUI</h1>
+  </header>
+  <main>
+   <div class="tab-container">
+        <ul class="tab-buttons">
+            <li class="tab-button active" data-id="news">最新記事</li>
+            <li class="tab-button" data-id="popular">人気記事</li>
+            <li class="tab-button" data-id="category">カテゴリ別</li>
+        </ul>
+
+        <div class="tab-contents">
+            <div class="tab-content active" id="news">
+                <h2>最新記事</h2>
+                <p>ダイエットに挑戦</p>
+            </div>
+            <div class="tab-content" id="popular">
+                <h2>人気記事</h2>
+                <p>-5キロ減量の秘訣</p>
+            </div>
+            <div class="tab-content" id="category">
+                <h2>チャレンジ精神</h2>
+                <p>やる気‼️やる気‼️元気‼️</p>
+            </div>
+        </div>
+    </div>
+
+  </main>
+  <footer>
+    <p>© wakaweb</p>
+  </footer>
+</body>
+
+</html>
